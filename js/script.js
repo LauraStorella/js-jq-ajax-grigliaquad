@@ -13,7 +13,7 @@ Step #3 : Il numero ottenuto appare al centro del quadrato.
 
 
 // Creazione griglia dinamica con Handlebars Template
-var source = $('.grid-box-template').html();
+var source = $('#grid-box-template').html();
 var template = Handlebars.compile(source);
 
 var boxPlaceholder = {
