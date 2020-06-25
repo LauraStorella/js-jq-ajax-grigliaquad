@@ -1,0 +1,150 @@
+.grid-wrapper {
+  width: 60%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex; 
+  flex-wrap: wrap;
+  background-color: lightslategray;
+}
+
+.grid-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: calc(100% / 6);
+  height: 110px;
+  padding: 3px;
+  border-radius: 5%;
+  border: 2px solid blanchedalmond;
+  color: lightslategray;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.yellow {
+  background-color: rgb(253, 253, 57);
+}
+
+.green {
+  background-color: lime;
+}
+
+
+
+
+
+
+
+
+
+
+/* *************** CSS Style Template *************** */
+
+/* GENERAL RULES (reset) - start */
+general rules {}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+  }
+  body div, span, ul, a {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  img {
+    width: 100%;
+  }
+/* GENERAL RULES (reset) - end */
+
+
+
+/* CLASS PROPERTIES - start rules */
+class_properties {}
+  .float {
+    float: left;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .transform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .text-bold {
+    font-weight: 700;
+  }
+  ul.list-unstyled {
+    padding-left: 0;
+    }
+    ul.list-unstyled li {
+      display: inline-block;
+      list-style: none;
+    }
+    ul.list-unstyled li a {
+      text-decoration: none;
+    }
+/* CLASS PROPERTIES - end rules */
+
+
+
+/* BASE LAYOUT - inizio */
+regole layout {}
+/* BASE LAYOUT - fine */
+
+
+
+/* COMPONENTS (reusable) - start rules */
+components {}
+  components
+/* COMPONENTS (reusable) - end rules */
+
+
+
+/* NAVBAR - start rules */
+nav {}
+  nav {}
+/* NAVBAR - end rules */
+
+
+/* HEADER - start rules */
+header {}
+  header {}
+/* HEADER - end rules */
+
+
+/* MAIN - start rules */
+main {}
+  main {}
+/* MAIN - end rules */
+
+
+/* FOOTER - start rules */
+footer {}
+  footer {}
+/* FOOTER - end rules */
+
+
+
+/* MEDIA QUERY -start rules */
+@media query {}
+  /* Media Query - xs  */
+  @media all and (max-width: 767px) {}
+
+  /* Media Query - sm  */
+  @media all and (min-width: 768px) and (max-width: 991px) {}
+
+  /* Media Query - md  */
+  @media all and (min-width: 992px) and (max-width: 1199px) {}
+
+  /* Media Query - lg  */
+  @media all and (min-width: 1200px) {}
+/* MEDIA QUERY -end rules */
