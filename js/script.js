@@ -12,6 +12,23 @@ Step #3 : Il numero ottenuto appare al centro del quadrato.
 */
 
 
+// Creazione griglia dinamica con Handlebars Template
+var source = $('.grid-box-template').html();
+var template = Handlebars.compile(source);
+
+var boxPlaceholder = {
+  'classe': 'grid-box',
+}
+
+var boxHtml = template(boxPlaceholder);
+
+// Creo ciclo for e appendo le 36 caselle della griglia
+for (var i = 0; i < 36; i++) {
+  $('.grid-wrapper').append(boxHtml);
+}
+
+
+
 // Step #1
 // Intercetto click su div (casella grid-box)
 //  ---> creo evento click
